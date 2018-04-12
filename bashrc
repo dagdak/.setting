@@ -7,7 +7,7 @@
 ## Temporary Command Configurations
 ################################################################################
 
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
+#if [[ "$OSTYPE" == "linux-gnu" ]]; then
     #export CC='/usr/bin/clang-3.8'
     #export CXX='/usr/bin/clang++-3.8'
 
@@ -42,7 +42,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
 
     # export SPIRV_Cross=$SPIRV/SPIRV-Cross
     # alias spirv-cross=$SPIRV_Cross/build/install/bin/spirv-cross
-fi
+#fi
 
 ################################################################################
 ## User Command Configurations
