@@ -8,26 +8,26 @@
 ################################################################################
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-    export CC='/usr/bin/clang-3.8'
-    export CXX='/usr/bin/clang++-3.8'
+    #export CC='/usr/bin/clang-3.8'
+    #export CXX='/usr/bin/clang++-3.8'
 
     ## trunk dir
-    export TRUNK=$HOME/trunk
+    #export TRUNK=$HOME/trunk
 
     ## d3d11 dir
-    alias toc='cd $TRUNK/src/toc'
-    alias build='cd $TRUNK/src/toc/build'
-    alias test='cd $TRUNK/src/toc/test/gk/gk1-4'
-    alias lib='cd $TRUNK/src/toc/src/lib/twk2/directx'
-    alias dll='cd $TRUNK/src/toc/src/dlls/gk/directx'
-    alias spirv='cd $TRUNK/src/toc/src/lib/twk2/directx/external/spirv'
+    #alias toc='cd $TRUNK/src/toc'
+    #alias build='cd $TRUNK/src/toc/build'
+    #alias test='cd $TRUNK/src/toc/test/gk/gk1-4'
+    #alias lib='cd $TRUNK/src/toc/src/lib/twk2/directx'
+    #alias dll='cd $TRUNK/src/toc/src/dlls/gk/directx'
+    #alias spirv='cd $TRUNK/src/toc/src/lib/twk2/directx/external/spirv'
 
     ## spirv dir
-    export SPIRV=$TRUNK/src/toc/src/lib/twk2/directx/external/spirv
+    #export SPIRV=$TRUNK/src/toc/src/lib/twk2/directx/external/spirv
 
-    alias glslangValidator=$SPIRV/glslangValidator
-    alias spirv-dis=$SPIRV/spirv-dis
-    alias spirv-cross=$SPIRV/spirv-cross
+    #alias glslangValidator=$SPIRV/glslangValidator
+    #alias spirv-dis=$SPIRV/spirv-dis
+    #alias spirv-cross=$SPIRV/spirv-cross
 
     # export GLSLANG=$SPIRV/glslang
     # alias glslangValidator=$GLSLANG/build/install/bin/glslangValidator
