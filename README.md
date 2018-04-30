@@ -3,8 +3,8 @@
 
 ## Installation
 ```
-git clone https://github.com/xlpiao/.xlpiao.git
-cd .xlpiao
+git clone https://github.com/dagdak/.setting
+cd .setting
 ./install.sh
 ```
 
